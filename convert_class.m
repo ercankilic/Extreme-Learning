@@ -1,5 +1,5 @@
 function res_cl = convert_class(res, classes)
-
+	% convert result array to specified classes
     res_cl = zeros(size(res));
     col = size(classes, 2);
     
